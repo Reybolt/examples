@@ -3,7 +3,9 @@ import logging
 import os
 import uuid
 from datetime import datetime
-
+# import pkg_resources
+# from jinja2 import Environment, FileSystemLoader
+# from weasyprint import HTML
 import boto3
 dynamodb = boto3.resource('dynamodb')
 
